@@ -14,3 +14,13 @@ function repeatStringNumTimes (str, num) {
 return result;
 }
 console.log (repeatStringNumTimes("*", 3));
+
+function reverseArr (arr) {
+  let newArr = [];
+  for(let i = arr.length-1; i>=0; i--) {
+    console.log(i);
+  }
+return newArr;
+}
+
+console.log(reverseArr([2,3,4,5]));
